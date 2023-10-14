@@ -1,6 +1,6 @@
 import puppeteer from "puppeteer";
 
-(async () => {
+const handle = async () => {
   const options = {
     headless: false,
     slowMo: 200,
@@ -11,4 +11,6 @@ import puppeteer from "puppeteer";
   await page.screenshot({ path: "example.png" });
 
   await browser.close();
-})();
+};
+
+handle();
