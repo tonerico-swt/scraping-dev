@@ -1,0 +1,26 @@
+{
+  "name": "scraping",
+  "version": "1.0.0",
+  "description": "for scraping",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "test": "ts-node --esm index.ts"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "tonerico",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^21.3.8",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.5",
+    "@typescript-eslint/parser": "^6.7.5",
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.0.3",
+    "ts-node": "^10.9.1"
+  }
+}
