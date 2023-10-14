@@ -4,8 +4,7 @@
   "description": "for scraping",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development --watch",
-    "test": "ts-node --esm index.ts"
+    "run:local": "ts-node --esm src/main.ts"
   },
   "type": "module",
   "keywords": [],
